@@ -13,6 +13,7 @@ export const authenticateToken = ({ req }: any) => {
   }
 
   if (!token) {
+    console.log('No token provided');
     return req;
   }
 
