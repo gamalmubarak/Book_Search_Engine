@@ -6,7 +6,12 @@ import path from 'path';
 import { typeDefs, resolvers } from './schemas/index.js';
 import db from './config/connection.js';
 import { authenticateToken } from './services/auth.js';
+import { fileURLToPath } from 'url';
 
+
+// Define __dirname for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
