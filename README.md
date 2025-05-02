@@ -87,15 +87,22 @@ The Book Search Engine is a full-stack MERN application that allows users to sea
 ## Usage
 
 1. Search for Books:
+
 - Enter a search term in the search bar and click "Submit Search."
 - View the search results, including book details. 
-2.Save Books:
+
+2. Save Books:
+
 - Log in or sign up to save books to your account.
 - Click the "Save This Book!" button under a book to save it. 
-3.View Saved Books:
+
+3. View Saved Books:
+
 - Navigate to the "See Your Books" page to view your saved books.
 - Remove books from your saved list by clicking the "Delete this Book!" button. 
-4.Authentication:
+
+4. Authentication:
+
 - Use the "Login/Sign Up" modal to create an account or log in.
 - Log out using the "Logout" button in the navigation bar.
 
@@ -110,9 +117,9 @@ The application is deployed on Render. You can access it at:(https://book-search
  
  see this screenshots of the app:
  (https://1drv.ms/i/c/3b216777a5c674e6/Eax0x_j1hRlJmSNPQrKx4hQBa-Rn3f32hX5iWehPpi0DvA?e=yE1154)
- ()
- ()
- 
+ (https://1drv.ms/i/c/3b216777a5c674e6/EYMZvs6VJ2tEshk--bcvG_cBbDX7vvYFsJdJb36Rmtihbg?e=vQeW6c)
+ (https://1drv.ms/i/c/3b216777a5c674e6/EUtwDI5TNoBFmgpCoWgKRQABFbLGHCWedy2iI4JBD1-BTQ?e=7l1VdF)
+ (https://1drv.ms/i/c/3b216777a5c674e6/EdVNB_aqnk9FkE_t-tM8D0UB9JyKkcgEUd1t3uF2Ve0lfA?e=gvkgmm)
  
 ---
 
