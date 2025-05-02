@@ -1,7 +1,7 @@
 import express from 'express';
 import { ApolloServer } from '@apollo/server';
 import { expressMiddleware } from '@apollo/server/express4';
-import cors from 'cors';
+
 import path from 'path';
 import { typeDefs, resolvers } from './schemas/index.js';
 import db from './config/connection.js';
@@ -23,12 +23,7 @@ const server = new ApolloServer({
 const startApolloServer = async () => {
   await server.start();
   
-app.use(cors({
-  origin: 'http://localhost:3000',
-  credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
-  allowedHeaders: ['Content-Type', 'Authorization'], 
-}));
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
